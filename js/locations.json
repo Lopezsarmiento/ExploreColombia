@@ -1,0 +1,213 @@
+{
+    "locations": [
+        {
+            "id": 1,
+            "place": {
+                "en": "Walled City",
+                "es": "Ciudad amurallada"
+            },
+            "location": "Cartagena de Indias - Bolivar",
+            "link": {
+                "en": "http://www.colombia.travel/en/where-to-go/caribbean/cartagena-de-indias",
+                "es": "http://www.colombia.travel/es/a-donde-ir/caribe/cartagena-de-indias"
+            },
+            "image": "url(../images/cartagena.jpg)",
+            "fact": {
+                "en": "Over 4,000 species of orchids can be found in Colombia.",
+                "es": "Mas de 4000 especies de orquideas se encuentran en Colombia."
+            },
+            "owner": "Gus LDN",
+            "url": "https://unsplash.com/@gus_ldn"
+        },
+        {
+            "id": 2,
+            "place": {
+                "en": "Caño Cristales",
+                "es": "Caño Cristales"
+            },
+            "location": "Serranía de la Macarena - Meta",
+            "link": {
+                "en": "http://www.colombia.travel/en/what-to-do/orinoco/la-macarena/experiences/let-cano-cristales-amaze-you",
+                "es": "http://www.colombia.travel/es/a-donde-ir/orinoquia/la-macarena/actividades/asombrate-con-cano-cristales"
+            },
+            "image": "url(../images/canoCristales.jpg)",
+            "fact": {
+                "en": "Colombia is the second most biodiverse country in the world, after only Brazil which is 10 times its size. It is one of only 17 “megadiverse” countries in the world.",
+                "es": "Colombia es el segundo pais mas biodiverso del planeta, perteneciendo al grupo de los 17 paises megadiversos en el mundo."
+            },
+            "owner": "Wikimedia Commons",
+            "url": "https://en.m.wikipedia.org/wiki/File:CA%C3%91O_CRISTALES_%E2%80%93_LOS_OCHOS_01.jpg"
+        },
+        {
+            "id": 3,
+            "place": {
+                "en": "Arrecifes Beach",
+                "es": "Playa Arrecifes"
+            },
+            "location": "Parque Tayrona - Magadalena",
+            "link": {
+                "en": "http://www.colombia.travel/en/where-to-go/caribbean/santa-marta",
+                "es": "http://www.colombia.travel/es/a-donde-ir/caribe/santa-marta"
+            },
+            "image": "url(../images/tayrona.jpg)",
+            "fact": {
+                "en": "Colombia is the only country in South America that has coastlines on both the Pacific Ocean and the Caribbean Sea.",
+                "es": "Colombia es el unico pais en suramerica que tiene costas en el oceano pacifico y caribe."
+            },
+            "owner": "Christian Holzinger",
+            "url": "https://unsplash.com/@pixelatelier"
+        },
+        {
+            "id": 4,
+            "place": {
+                "en": "Cocora Valley",
+                "es": "Valle del Cocora"
+            },
+            "location": "Salento - Quindio",
+            "link": {
+                "en": "http://www.colombia.travel/en/where-to-go/andean/armenia/activities/visit-cocora-valley",
+                "es": "http://www.colombia.travel/es/a-donde-ir/andina/armenia/actividades/conoce-el-valle-del-cocora"
+            },
+            "image": "url(../images/cocora.jpg)",
+            "fact": {
+                "en": "Colombia is part of the Ring of Fire, a group of countries in the Pacific Ocean vulnerable to earthquakes and volcanic eruptions.",
+                "es": "Colombia es parte del 'Anillo de Fuego', un grupo de paises en el oceano pacifico vulnerables a terremotos y erupciones volcanicas."
+            },
+            "owner": "María Fernanda Fierro",
+            "url": "https://unsplash.com/@0fernanda7"
+        },
+        {
+            "id": 5,
+            "place": {
+                "en": "Bogotá's Downtown",
+                "es": "centro de Bogotá"
+            },
+            "location": "Bogotá - Cundinamarca",
+            "link": {
+                "en": "http://www.colombia.travel/en/where-to-go/andean/bogota",
+                "es": "http://www.colombia.travel/es/a-donde-ir/andina/bogota"
+            },
+            "image": "url(../images/bogota.jpg)",
+            "fact": {
+                "en": "Bogota has South America’s largest network of bicycle routes: over 300km stretching from slum areas and suburbs to the city centre.",
+                "es": "Bogotá tiene la red de ciclorutas mas larga de suramerica. Alrededor de 300km que se extienden por zonas urbanas y aledañas."
+            },
+            "owner": "Michael Lechner",
+            "url": "https://unsplash.com/@mlechner"
+        },
+        {
+            "id": 6,
+            "place": {
+                "en": "Cangrejo Key",
+                "es": "Cayo Cangrejo"
+            },
+            "location": "San Andres Islas",
+            "link": {
+                "en": "http://www.colombia.travel/en/where-to-go/caribbean/san-andres",
+                "es": "http://www.colombia.travel/es/a-donde-ir/caribe/san-andres"
+            },
+            "image": "url(../images/cayoCangrejo.jpg)",
+            "fact": {
+                "en": "There are over 300 beaches that locals and tourists can take advantage of to see all of the natural beauty this country has to offer.",
+                "es": "Hay mas de 300 playas que turistas y locales pueden disfrutar para ver toda la belleza que Colombia ofrece."
+            },
+            "owner": "Sergio Jara",
+            "url": "https://unsplash.com/@sergiojara"
+        },
+        {
+            "id": 7,
+            "place": {
+                "en": "El Rodadero Beach",
+                "es": "Playa El Rodadero"
+            },
+            "location": "Santa Marta - Magdalena",
+            "link": {
+                "en": "http://www.colombia.travel/en/where-to-go/caribbean/santa-marta",
+                "es": "http://www.colombia.travel/es/a-donde-ir/caribe/santa-marta"
+            },
+            "image": "url(../images/elrodadero.jpg)",
+            "fact": {
+                "en": "Archeologists estimate that humans settled in Colombia some 20,000 years ago.",
+                "es": "Arqueologos estiman que los primeros asentamientos humanos en Colombia iniciaron hace 20.000 años."
+            },
+            "owner": "Diego Lopez",
+            "url": "https://unsplash.com"
+        },
+        {
+            "id": 8,
+            "place": {
+                "en": "Colombian Coffee grains",
+                "es": "Granos de Cafe Colombiano."
+            },
+            "location": "Triangulo del cafe",
+            "link": "http://www.colombia.travel/en/where-to-go/andean/ya-mei-ni-ya/activities/visit-national-coffee-park",
+            "image": "url(../images/coffee.jpg)",
+            "fact": {
+                "en": "Colombia is the third largest exporter of coffee in the world after Brazil and Vietnam.",
+                "es": "Colombia es el tercer mas grande productor de cafe en el mundo despues de Brasil y Vietnam."
+            },
+            "owner": "Milo Miloezger",
+            "url": "https://unsplash.com/@miloezger"
+        },
+        {
+            "id": 9,
+            "place": {
+                "en": "Cabo San Juan del Guia",
+                "es": "Cabo San Juan del Guia"
+            },
+            "location": "Parque Nacional Tayrona",
+            "link": {
+                "en": "http://www.colombia.travel/en/what-to-do/caribbean/santa-marta/experiences/visit-tayrona-park",
+                "es": "http://www.colombia.travel/es/que-hacer/caribe/santa-marta/experiencias/el-parque-tayrona"
+            },
+            "image": "url(../images/caboSanJuan.jpg)",
+            "fact": {
+                "en": "Over 150 Colombian mines produce some of the world’s finest emeralds.",
+                "es": "Mas de 150 minas en Colombia producen las mejores esmeraldas del mundo."
+            },
+            "owner": "Christian Holzinger",
+            "url": "https://unsplash.com/@pixelatelier"
+        },
+        {
+            "id": 10,
+            "place": {
+                "en": "Panoramic of Medellin",
+                "es": "Panoramica de Medellin"
+            },
+            "location": "Medellin - Antioquia",
+            "link": {
+                "en": "http://www.colombia.travel/en/where-to-go/andean/medellin",
+                "es": "http://www.colombia.travel/es/a-donde-ir/andina/medellin"
+            },
+            "image": "url(../images/medellin.jpg)",
+            "fact": {
+                "en": "Colombia shares a land border with 5 countries including Panama, Venezuela, Brazil, Ecuador and Peru.",
+                "es": "Colombia comparte fronteras con 5 paises: Panama, Venezuela, Brasil, Ecuador y Peru."
+            },
+            "owner": "Juan Saravia",
+            "url": "https://unsplash.com/@juansaravia"
+        },
+        {
+            "id": 11,
+            "place": {
+                "en": "Whales-watching",
+                "es": "Avistamiento de Ballenas"
+            },
+            "location": "Nuquí - Chocó",
+            "link": {
+                "en": "http://www.colombia.travel/en/what-to-do/pacific/choco/experiences/whale-watching",
+                "es": "http://www.colombia.travel/es/que-hacer/pacifica/guapi/experiencias/avistamiento-de-ballenas-en-el-pacifico"
+            },
+            "image": "url(../images/nuqui.jpg)",
+            "fact": {
+                "en": "Humpback whales (also known as Yubarta whales) travel over 5500 miles from the Antarctic each year, arriving to the Colombian Pacific coast between July and November.",
+                "es": "Son 8.500 los kilómetros que las ballenas jorobadas recorren desde la Antártida para llegar a las costas del Pacífico colombiano entre julio y noviembre."
+            },
+            "owner": "Emilio",
+            "url": "https://www.twenty20.com/vipiripi/photos"
+        }
+    ],
+    "Config": {
+        "api": "&appid=cf6f3902316f9fa78adcc4f336e2728a"
+    }
+}
