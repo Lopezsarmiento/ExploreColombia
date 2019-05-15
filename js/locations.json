@@ -205,6 +205,101 @@
             },
             "owner": "Emilio",
             "url": "https://www.twenty20.com/vipiripi/photos"
+        },
+        {
+            "id": 12,
+            "place": {
+                "en": "View from Piedra del Peñol",
+                "es": "Vista desde la Piedra del Peñol"
+            },
+            "location": "Guatapé, Antioquia",
+            "link": {
+                "en": "",
+                "es": ""
+            },
+            "image": "url(../images/guatape.jpg)",
+            "fact": {
+                "en": "lorem ipsum",
+                "es": "lorem ipsum"
+            },
+            "owner": "Robin Noguier",
+            "url": "https://unsplash.com/@robinnoguier"
+        },
+        {
+            "id": 13,
+            "place": {
+                "en": "Taganga sea view",
+                "es": "Vista del mar en Taganga"
+            },
+            "location": "Taganga, Magdalena",
+            "link": {
+                "en": "",
+                "es": ""
+            },
+            "image": "url(../images/taganga.jpg)",
+            "fact": {
+                "en": "lorem ipsum",
+                "es": "lorem ipsum"
+            },
+            "owner": "Oscar Ivan Esquivel Arteaga",
+            "url": "https://unsplash.com/@oscaresquivel"
+        },
+        {
+            "id": 14,
+            "place": {
+                "en": "Panoramic view of Cali",
+                "es": "Vista panoramica de Cali"
+            },
+            "location": "Santiago de Cali, Valle del Cauca",
+            "link": {
+                "en": "",
+                "es": ""
+            },
+            "image": "url(../images/cali.jpg)",
+            "fact": {
+                "en": "lorem ipsum",
+                "es": "lorem ipsum"
+            },
+            "owner": "Andres F Uran",
+            "url": "https://unsplash.com/@andresuran"
+        },
+        {
+            "id": 15,
+            "place": {
+                "en": "Tatacoa Desert",
+                "es": "Desierto de la Tatacoa"
+            },
+            "location": "Villavieja, Huila",
+            "link": {
+                "en": "",
+                "es": ""
+            },
+            "image": "url(../images/tatacoa.jpg)",
+            "fact": {
+                "en": "lorem ipsum",
+                "es": "lorem ipsum"
+            },
+            "owner": "Nicole Reyes",
+            "url": "https://unsplash.com/@nicol1reyes"
+        },
+        {
+            "id": 16,
+            "place": {
+                "en": "Chingaza's Moorland",
+                "es": "Páramo de Chingaza"
+            },
+            "location": "Cordillera de los Andes",
+            "link": {
+                "en": "",
+                "es": ""
+            },
+            "image": "url(../images/chingaza.jpg)",
+            "fact": {
+                "en": "lorem ipsum",
+                "es": "lorem ipsum"
+            },
+            "owner": "Michael Lechner",
+            "url": "https://unsplash.com/@mlechner"
         }
     ],
     "Config": {
