@@ -214,13 +214,13 @@
             },
             "location": "Guatapé, Antioquia",
             "link": {
-                "en": "",
-                "es": ""
+                "en": "http://www.colombia.travel/en/blog/culture/guatape",
+                "es": "http://www.colombia.travel/es/a-donde-ir/andina/medellin/actividades/conoce-el-embalse-penol-guatape"
             },
             "image": "url(../images/guatape.jpg)",
             "fact": {
-                "en": "lorem ipsum",
-                "es": "lorem ipsum"
+                "en": "Before Iberian conquerors reached the Antioquia area in the sixteen century, the territory was inhabited by indigenous groups, and ruled by “Guatape”. Guatape was the head of the tribe and so the town was named after him.",
+                "es": "Antes de que los conquistadores ibéricos llegaran a Antioquia en el siglo XVI, el territorio estaba habitado por grupos indígenas y gobernado por 'Guatape'. Guatape era el jefe de la tribu, por lo que la ciudad recibió su nombre."
             },
             "owner": "Robin Noguier",
             "url": "https://unsplash.com/@robinnoguier"
@@ -233,13 +233,13 @@
             },
             "location": "Taganga, Magdalena",
             "link": {
-                "en": "",
-                "es": ""
+                "en": "http://www.colombia.travel/en/where-to-go/caribbean/santa-marta/activities/taganga",
+                "es": "http://www.colombia.travel/es/a-donde-ir/caribe/santa-marta/actividades/taganga"
             },
             "image": "url(../images/taganga.jpg)",
             "fact": {
-                "en": "lorem ipsum",
-                "es": "lorem ipsum"
+                "en": "Once a tiny fishing village, Taganga became a big backpacker destination in the early 2000s.",
+                "es": "Siendo una pequena villa de pescadores, Taganga se convirtió en un gran destino para mochileros a inicios del 2000"
             },
             "owner": "Oscar Ivan Esquivel Arteaga",
             "url": "https://unsplash.com/@oscaresquivel"
@@ -252,13 +252,13 @@
             },
             "location": "Santiago de Cali, Valle del Cauca",
             "link": {
-                "en": "",
-                "es": ""
+                "en": "http://www.colombia.travel/en/where-to-go/pacific/cali",
+                "es": "http://www.colombia.travel/es/reuniones/congresos-y-convenciones/cali/que-hacer"
             },
             "image": "url(../images/cali.jpg)",
             "fact": {
-                "en": "lorem ipsum",
-                "es": "lorem ipsum"
+                "en": "Cali’s cheerful nature is manifested in salsa, a Caribbean rhythm that is danced here among the sugarcane in its own unique way.",
+                "es": "Cali se distingue en Colombia como ‘capital de la rumba’ y, en el mundo, como la ‘capital de la salsa’ porque la fiesta callejera y el baile son característicos en la ciudad."
             },
             "owner": "Andres F Uran",
             "url": "https://unsplash.com/@andresuran"
@@ -271,13 +271,13 @@
             },
             "location": "Villavieja, Huila",
             "link": {
-                "en": "",
-                "es": ""
+                "en": "http://www.colombia.travel/es/a-donde-ir/andina/neiva/actividades/maravillate-en-el-desierto-de-la-tatacoa",
+                "es": "http://www.colombia.travel/es/a-donde-ir/andina/neiva/actividades/maravillate-en-el-desierto-de-la-tatacoa"
             },
             "image": "url(../images/tatacoa.jpg)",
             "fact": {
-                "en": "lorem ipsum",
-                "es": "lorem ipsum"
+                "en": "The reddish earth and the cactus that are stretched in the shape of a chandelier make up an arid landscape that is ideal to explore during the day and to see the stars at night. Here, due to the cleanliness of the sky and the absence of artificial light, an astronomical observatory works.",
+                "es": "La tierra rojiza y los cactus que se estiran en forma de candelabro componen un paisaje árido que es ideal para explorar en el día y para ver las estrellas de noche. Aquí, debido a la limpieza del cielo y a la ausencia de luz artificial, funciona un observatorio astronómico."
             },
             "owner": "Nicole Reyes",
             "url": "https://unsplash.com/@nicol1reyes"
@@ -290,13 +290,13 @@
             },
             "location": "Cordillera de los Andes",
             "link": {
-                "en": "",
-                "es": ""
+                "en": "http://www.colombia.travel/en/where-to-go/andean/bogota/activities/chingaza-national-nature-park",
+                "es": "http://www.colombia.travel/es/a-donde-ir/andina/bogota/actividades/visita-el-parque-nacional-natural-chingaza"
             },
             "image": "url(../images/chingaza.jpg)",
             "fact": {
-                "en": "lorem ipsum",
-                "es": "lorem ipsum"
+                "en": "Deer, tapirs, and spectacled bears are some of the residents of the Chingaza National Nature Park. In this protected area, which produces 80 percent of the water consumed in the capital, there are at least 383 species of plants, including frailejones.",
+                "es": "Venados, dantas de páramo y osos de anteojos son algunos habitantes del Parque Nacional Natural Chingaza. En esta área protegida, donde se produce el 80% agua que se consume en la capital del país, se han registrado al menos 383 especies de plantas, entre ellas frailejones."
             },
             "owner": "Michael Lechner",
             "url": "https://unsplash.com/@mlechner"
