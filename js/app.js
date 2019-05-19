@@ -1,20 +1,67 @@
 (function () {
     'use strict';
 
-    angular.module('myApp', [])
-        .controller('NewTabController', function ($scope, $timeout, $filter) {
+    angular.module('myApp', ['myApp.services'])
+        .controller('NewTabController', function ($scope, $timeout, $filter, UtilsService) {
             $scope.time = clock();
-            $scope.location = `Buenos Aires`;
+            $scope.city = `Buenos Aires`;
             $scope.temperature = `20 \u00B0`;
             $scope.weatherIcon = '';
+            $scope.bgImage = {};
+            $scope.locationName = '';
+            $scope.location = '';
+            $scope.fact = '';
+            $scope.link = '';
+            $scope.url = '';
+            $scope.owner = '';
+            $scope.photo = '';
 
-            getLocation(getWeather);
+            let config = {};
+            let lang = UtilsService.getLang();
+
+            // initiate
+            getJsonInfo();
 
             function clock() {
                 let now = Date.now();
-                const format = "hh:mm:ss";
+                const format = "HH:MM";
                 $scope.time = $filter('date')(now, format);
                 $timeout(clock, 1000);
+            }
+
+            function getJsonInfo() {
+                const file = 'js/locations.json';
+                fetch(file)
+                    .then(function (response) {
+                        if (!response.ok) {
+                            throw Error(response.statusText);
+                        }
+                        // Read the response as json.
+                        return response.json();
+                    })
+                    .then(function (data) {
+                        config = data.config;
+                        setLocationData(data.locations);
+                        getLocation(getWeather);
+
+                    })
+                    .catch(function (error) {
+                        console.log('Looks like there was a problem: \n', error);
+                    });
+            }
+
+            function setLocationData(data) {
+                let item = UtilsService.getRandomNumber(data);
+                $scope.bgImage = {
+                    "background-image": data[item].image
+                };
+                $scope.locationName = (lang === 'en') ? data[item].place.en : data[item].place.es;
+                $scope.location = data[item].location;
+                $scope.fact = (lang === 'en') ? data[item].fact.en : data[item].fact.es;
+                $scope.link = (lang === 'en') ? data[item].link.en : data[item].link.es;
+                $scope.owner = data[item].owner;
+                $scope.url = data[item].url;
+                $scope.photo = (lang === 'en') ? 'Photo by' : 'Foto de';
             }
 
             function getLocation(onSuccess) {
@@ -27,14 +74,13 @@
             }
 
             function getWeather(data) {
-                console.log(data);
                 let lat = data.coords.latitude;
                 let long = data.coords.longitude;
-
+                const key = config.api;
                 const pepper = '&appid=cf6f3902316f9fa78adcc4f336e2728a';
                 const latlong = `lat=${lat}&lon=${long}`;
                 const units = '&units=metric';
-                const url = `http://api.openweathermap.org/data/2.5/weather?${latlong}${units}${pepper}`;
+                const url = `http://api.openweathermap.org/data/2.5/weather?${latlong}${units}${key}`;
 
                 fetch(url)
                     .then(function (response) {
@@ -48,8 +94,9 @@
                         console.log(jsonData);
                         let icon = getIcon(jsonData);
                         let temperature = (jsonData.main.temp).toFixed(1);
-                        $scope.location = jsonData.name;
+                        $scope.city = jsonData.name;
                         $scope.temperature = `${temperature} \u00B0`;
+                        $scope.weatherIcon = icon;
 
                     })
                     .catch(function (error) {
@@ -73,6 +120,5 @@
 
                 return weatherIconID;
             }
-
         });
 })();

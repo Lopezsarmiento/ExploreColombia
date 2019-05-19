@@ -25,35 +25,16 @@ body, html {
     padding-top: 10px;
 }
 
-#taker {
-    background-color: transparent;
-    color: white;
-    text-decoration: none;
-    padding:4px 6px;
-    font-family: 'Roboto', Arial, sans-serif;
-    font-size:1.3vw;
-    line-height:1.2;
-    display:inline-block;
-    border-radius:3px;
-    text-shadow: 2px 2px 4px #292929;
-}
-
-#taker span{
-    display:inline-block;
-    padding:2px 3px
-}
-
-#svg {
-    height:12px;
-    width:auto;
-    position:relative;
-    vertical-align:middle;
-    top:-1px;
-    fill: white;
-}
 
 /* upper-right - Weather info */
-.top-right a {
+.top-right a{
+    font-family: 'Roboto', Arial, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 4px #292929;
+    text-decoration: none;
+}
+
+.top-left a, p{
     font-family: 'Roboto', Arial, sans-serif;
     color: white;
     text-shadow: 2px 2px 4px #292929;
