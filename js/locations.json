@@ -302,7 +302,7 @@
             "url": "https://unsplash.com/@mlechner"
         }
     ],
-    "Config": {
+    "config": {
         "api": "&appid=cf6f3902316f9fa78adcc4f336e2728a"
     }
 }
