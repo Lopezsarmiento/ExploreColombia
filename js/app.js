@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('myApp', ['myApp.services'])
-        .controller('NewTabController', function ($scope, $http, $timeout, $filter, FetchService, UtilsService) {
+        .controller('NewTabController', function ($scope, $timeout, $filter, UtilsService) {
             $scope.time = clock();
             $scope.city = `Buenos Aires`;
             $scope.temperature = `20 \u00B0`;
@@ -17,7 +17,7 @@
             $scope.photo = '';
 
             let config = {};
-            let lang = getLang();
+            let lang = UtilsService.getLang();
 
             // initiate
             getJsonInfo();
@@ -96,6 +96,7 @@
                         let temperature = (jsonData.main.temp).toFixed(1);
                         $scope.city = jsonData.name;
                         $scope.temperature = `${temperature} \u00B0`;
+                        $scope.weatherIcon = icon;
 
                     })
                     .catch(function (error) {
@@ -119,17 +120,5 @@
 
                 return weatherIconID;
             }
-
-            function getLang() {
-
-                let lang = 'en';
-                let browserLang = navigator.language;
-
-                if (browserLang.includes('es')) {
-                    return lang = 'es';
-                }
-                return lang;
-            }
-
         });
 })();

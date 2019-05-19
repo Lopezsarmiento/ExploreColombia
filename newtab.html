@@ -31,7 +31,7 @@
 					<div class="text-right">
 						<div>
 							<a target="_blank" href="https://www.google.com.ar/search?q=google+weather">
-								<i id="weatherIcon"></i>
+								<i id="weatherIcon" ng-class="weatherIcon"></i>
 								<span id="temp">{{ temperature }}</span><br>
 								<span id="city">{{ city }}</span>
 							</a>
@@ -83,7 +83,7 @@
 	<script src="/node_modules/jquery/dist/jquery.min.js"></script>
 	<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	<script src="/js/app.js"></script>
-	<script src="/services/FetchService.js"></script>
+	<script src="/services/Services.js"></script>
 </body>
 
 </html>
