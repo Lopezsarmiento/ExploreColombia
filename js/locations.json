@@ -303,6 +303,7 @@
         }
     ],
     "config": {
-        "api": "&appid=cf6f3902316f9fa78adcc4f336e2728a"
+        "api": "&appid=cf6f3902316f9fa78adcc4f336e2728a",
+        "url": "http://api.openweathermap.org/data/2.5/weather?"
     }
 }

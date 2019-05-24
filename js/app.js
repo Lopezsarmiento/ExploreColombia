@@ -4,8 +4,8 @@
     angular.module('myApp', ['myApp.services'])
         .controller('NewTabController', function ($scope, $timeout, $filter, UtilsService) {
             $scope.time = clock();
-            $scope.city = `Buenos Aires`;
-            $scope.temperature = `20 \u00B0`;
+            $scope.city = ``;
+            $scope.temperature = ``;
             $scope.weatherIcon = '';
             $scope.bgImage = {};
             $scope.locationName = '';
@@ -18,6 +18,11 @@
 
             let config = {};
             let lang = UtilsService.getLang();
+            const photo = {
+                "en": "Photographer",
+                "es": "Fotógrafo"
+            }
+            const file = 'js/locations.json';
 
             // initiate
             getJsonInfo();
@@ -30,7 +35,6 @@
             }
 
             function getJsonInfo() {
-                const file = 'js/locations.json';
                 fetch(file)
                     .then(function (response) {
                         if (!response.ok) {
@@ -61,7 +65,7 @@
                 $scope.link = (lang === 'en') ? data[item].link.en : data[item].link.es;
                 $scope.owner = data[item].owner;
                 $scope.url = data[item].url;
-                $scope.photo = (lang === 'en') ? 'Photo by' : 'Foto de';
+                $scope.photo = (lang === 'en') ? photo.en : photo.es;
             }
 
             function getLocation(onSuccess) {
@@ -77,10 +81,10 @@
                 let lat = data.coords.latitude;
                 let long = data.coords.longitude;
                 const key = config.api;
-                const pepper = '&appid=cf6f3902316f9fa78adcc4f336e2728a';
+                const call = config.url;
                 const latlong = `lat=${lat}&lon=${long}`;
                 const units = '&units=metric';
-                const url = `http://api.openweathermap.org/data/2.5/weather?${latlong}${units}${key}`;
+                const url = `${call}${latlong}${units}${key}`;
 
                 fetch(url)
                     .then(function (response) {
