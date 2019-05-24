@@ -24,8 +24,10 @@
 		ng-style="bgImage">
 		<header class="masthead mb-auto">
 			<div class="row top-row">
-				<div class=" col">
-					<p class="top-left">{{photo}} <a target="_blank" ng-href="{{url}}">{{owner}}</a></p>
+				<div class="col">
+					<p class="top-left">{{photo}} <br>
+						<a class="" target="_blank" ng-href="{{url}}">| {{owner}}</a>
+					</p>
 				</div>
 				<div class=" top-right col">
 					<div class="text-right">
@@ -44,7 +46,7 @@
 		<main role="main" class="inner cover">
 			<div class="row middle-row">
 				<div class="middle col">
-					<span id="clock">{{ time }}</span>
+					<span id="clock" ng-cloak>{{ time }}</span>
 				</div>
 			</div>
 		</main>

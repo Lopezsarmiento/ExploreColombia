@@ -30,14 +30,14 @@ body, html {
 .top-right a{
     font-family: 'Roboto', Arial, sans-serif;
     color: white;
-    text-shadow: 2px 2px 4px #292929;
+    text-shadow: 4px 4px 8px #0c0c0c;
     text-decoration: none;
 }
 
 .top-left a, p{
     font-family: 'Roboto', Arial, sans-serif;
     color: white;
-    text-shadow: 2px 2px 4px #292929;
+    text-shadow: 5px 5px 10px #0c0c0c;
     text-decoration: none;
 }
 
@@ -106,3 +106,10 @@ body, html {
     border-radius:3px;
     text-shadow: 1px 1px 2px #292929;
 }
+.bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    z-index: 2;
+  }
