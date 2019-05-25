@@ -32,6 +32,7 @@ body, html {
     color: white;
     text-shadow: 4px 4px 8px #0c0c0c;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 .top-left a, p{
@@ -39,6 +40,7 @@ body, html {
     color: white;
     text-shadow: 5px 5px 10px #0c0c0c;
     text-decoration: none;
+    font-weight: bolder;
 }
 
 #weatherIcon, #temp{
@@ -47,6 +49,8 @@ body, html {
 
 #city {
     font-size: 1.5vw;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: bolder;
 }
 
 /* Center - Time info*/
@@ -59,7 +63,7 @@ body, html {
     font-family: 'Roboto', Arial, sans-serif;
     color: white;
     font-size: 20vw;
-    text-shadow: 2px 2px 4px #292929;
+    text-shadow: 5px 5px 10px #0c0c0c;
 }
 
 /* bottom row*/
@@ -81,7 +85,8 @@ body, html {
     line-height:1.2;
     display:inline-block;
     border-radius:3px;
-    text-shadow: 2px 2px 4px #292929;
+    text-shadow: 5px 5px 10px #0c0c0c;
+    font-weight: bolder;
 }
 
 /* bottom-Center - fact info*/
@@ -89,8 +94,9 @@ body, html {
 #fact {
     color: white;
     font-size: 1.2vw;
-    text-shadow: 2px 2px 4px #292929;
-    font-family: 'Open Sans', sans-serif;
+    text-shadow: 5px 5px 10px #0c0c0c;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-weight: bolder;
 }
 
 /* bottom-right - google*/
@@ -105,11 +111,10 @@ body, html {
     display:inline-block;
     border-radius:3px;
     text-shadow: 1px 1px 2px #292929;
+    font-weight: bolder;
 }
-.bg-text {
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+
+a:not([href]):not([tabindex]){
     color: white;
-    font-weight: bold;
-    z-index: 2;
-  }
+    text-decoration: none;
+}
