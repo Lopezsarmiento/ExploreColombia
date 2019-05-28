@@ -29,7 +29,7 @@
 
             function clock() {
                 let now = Date.now();
-                const format = "HH:MM";
+                const format = "HH:mm";
                 $scope.time = $filter('date')(now, format);
                 $timeout(clock, 1000);
             }
