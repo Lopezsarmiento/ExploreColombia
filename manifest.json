@@ -7,7 +7,7 @@
         "48": "favicon.png",
         "128": "favicon.png"
     },
-    "version": "3.0",
+    "version": "3.0.1",
     "author": "Diego Francisco Lopez Sarmiento",
     "browser_action": {
         "default_title": "Colombia un pais para explorar"
